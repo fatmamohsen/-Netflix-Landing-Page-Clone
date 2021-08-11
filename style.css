@@ -35,6 +35,7 @@ img{
     width: 100%;
     height: 706.984px;
     position: relative;
+    border-bottom: 8px solid #222;
     background: url('img/background1.jpg') no-repeat center center/cover;
 }
 .showcase::after{
@@ -167,4 +168,145 @@ img{
     line-height: 1.25;
     font-weight: 400;
     z-index: 2;
+}
+.card{
+    position: relative;
+    border-bottom: 8px solid #222;
+    padding: 50px 5%;
+    color:#fff;
+}
+.card-anm{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 36.5px;
+    flex:1;
+   
+}
+.text-card{
+    width:52%;
+    flex: 0 1 auto;
+    padding: 0 3rem 0 0;
+}
+.text-card-titel{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+}
+.text-card-subtitel{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.img-card{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex: 0 1 auto;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+.img-card img{
+    z-index: 1;
+}
+.rev-card{
+    flex-flow: row-reverse;
+}
+.anmi-card{
+    position: absolute; 
+    top: 8%;
+    left: 13.5%; 
+    right: 12%;
+    bottom: 12%; 
+}
+.anmi-card2{
+    position: absolute; 
+    top: 0%;
+    left: 17%; 
+    right: 18%;
+    bottom: 29%; 
+}
+.video-card{
+    width: 100%;
+    height: 100%;
+}
+video{
+    object-fit: contain;
+}
+.qa-card{
+    text-align: center;
+}
+.list-card{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.list{
+    width: 75%;
+    margin:2em auto;
+}
+.list-item{
+    list-style-type:none;
+    margin:0 0 8px 0;
+}
+.question{
+    font-weight: 400;
+    color: #fff;
+    font-size: 26px;
+    width:100%;
+    position:relative;
+    margin-bottom: 1px;
+    padding: .8em 2.2em .8em 1.2em;
+    border: 0;
+}
+.question, .answer{
+    display: block;
+    text-align: left;
+    background: #303030;
+}
+.answer p{
+    padding:31.2px;
+    margin: 0;
+}
+#more, #more1, #more2, #more3,#more4,#more5{
+    display:none;
+}
+
+.footer .footer-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+.footer {
+	max-width: 70%;
+	margin: 1rem auto;
+	overflow: auto;
+}
+
+.footer,
+.footer a {
+	color: #999;
+	font-size: 0.9rem;
+}
+
+.footer p {
+	margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 2rem;
+}
+
+.footer li {
+	line-height: 1.9;
+}
+
+.footer .lang-select {
+	margin-top: 2rem;
+	color: #999;
+	background-color: #000;
+	background-image: none;
+	border: 1px solid #333;
+	padding: 1rem 1.2rem;
+	border-radius: 5px;
 }
