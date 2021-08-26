@@ -259,7 +259,7 @@ video{
     padding: .8em 2.2em .8em 1.2em;
     border: 0;
 }
-.question, .answer{
+.question{
     display: block;
     text-align: left;
     background: #303030;
@@ -268,8 +268,14 @@ video{
     padding:31.2px;
     margin: 0;
 }
-#more, #more1, #more2, #more3,#more4,#more5{
-    display:none;
+.answer{
+    text-align: left;
+    background: #303030;
+    display: none;
+} 
+
+.show-text .answer{
+    display: block;
 }
 
 .footer .footer-cols {
